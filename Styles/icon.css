@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: "gotham_bookregular";
+	src: url("../fonts/ufonts.com_gotham-book-webfont.eot");
+	src: url("../fonts/ufonts.com_gotham-book-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ufonts.com_gotham-book-webfont.woff") format('woff'), url("../fonts/ufonts.com_gotham-book-webfont.ttf") format('truetype'), url("../fonts/ufonts.com_gotham-book-webfont.svg#gotham_bookregular") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "gotham_mediumregular";
+	src: url("../fonts/ufonts.com_gotham-book-webfont.eot");
+	src: url("../fonts/ufonts.com_gotham-medium-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ufonts.com_gotham-medium-webfont.woff") format('woff'), url("../fonts/ufonts.com_gotham-medium-webfont.ttf") format('truetype'), url("../fonts/ufonts.com_gotham-medium-webfont.svg#gotham_mediumregular") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (min-width: 320px) {
+	article {
+        padding: 50% 20%;
+    }
+}
+
+body
+{
+    webkit-font-smoothing: antialiased !important; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: none !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-family: "gotham_bookregular" !important;
+    background-color: #fff !important;
+}
+.ui-widget
+{
+    font-family: "gotham_bookregular" !important;
+}
+
+.voice
+{
+    width: 28px;
+    height: 28px;
+}
+.voice
+{
+    background-image: url(../img/mic.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.no-svg .voice
+{
+    background-image: url(../img/mic.png);
+}
+.position
+{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+}
+.back
+{
+    /*padding:10%;*/
+    background: #FFF;
+    background-image: url(../img/coke-name.png);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: 15% auto;
+}
+
+.circle
+{
+    width: 12%;
+    height: 0px;
+    padding-bottom: 12%;
+    -moz-border-radius: 90%;
+    -webkit-border-radius: 90%;
+    border-radius: 90%;
+    background-color: #fff;
+}
+
+section
+{
+    /*background-image: url(../img/coke-name.svg) ; 	background-repeat: no-repeat; 	background-position: center center;*/
+    display: block;
+}
+
+.no-svg section
+{
+    background-image: url(../img/coke-name.png);
+}
+
+/*article{padding: 30% 20%;} */
+article
+{
+    padding: 25% 20%;
+}
+
+.results
+{
+    background-color: #fff !important;
+    margin: 0px !important;
+}
+#support
+{
+    padding: 0px;
+}
+.mCSB1_Container
+{
+    background-color: #fff; /*height:360px;*/ /*height:50%;*/
+    margin-left: 3px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #455560;
+}
+
+.list-group-item > .miles
+{
+    float: right;
+}
+.miles
+{
+    display: inline-block;
+    width: 40px;
+    padding: 3px 7px;
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    height: 43px;
+    margin-right: -9px;
+    font-weight: bold !important;
+    color: #Adafb2 !important;
+}
+
+.list-group-item > .cap
+{
+    float: right;
+    width: 40px;
+}
+
+.cap img
+{
+    width: 90%;
+    height: auto;
+}
+
+.road
+{
+    font-size: 10px;
+    font-weight: normal !important;
+    position: relative;
+    top: 13px;
+    left: -18px;
+}
+.map
+{
+    /*height:300px;*/ /*height:50%;*/
+    margin: 0;
+    padding: 0;
+    max-width: none !important;
+    width: inherit;
+}
+.nav-search
+{
+    position: absolute;
+    z-index: 5;
+    margin: 0 5%;
+    padding: 10px;
+    width: 90%;
+}
+.reD
+{
+    border: none !important;
+    padding: 4px 6px;
+    border-radius: none !important;
+    background-color: #f40009;
+    color: #fff;
+    font-size: 12px !important;
+}
+.go
+{
+    margin: 8px 5px !important;
+}
+
+#DirectionsView button, .list-group-item > button
+{
+    float: right;
+    -moz-box-shadow: inset 0px 1px 1px 0px #adafb2;
+    -webkit-box-shadow: inset 0px 1px 1px 0px #adafb2;
+    box-shadow: inset 0px 1px 1px 0px #adafb2;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+    background: -moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+    background-color: #b8e356;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    text-indent: 0;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    color: #fff !important;
+    margin-top: -3px;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #86ae47;
+}
+
+.go
+{
+    width: 80%;
+    display: inline-block;
+}
+
+.list-group-item > .green
+{
+    float: right;
+}
+/*.green img{margin:5px 2px}*/
+.green img
+{
+    margin: 0px 2px;
+}
+.green
+{
+    display: inline-block;
+}
+
+label
+{
+    /*font-family: Verdana;*/
+    color: White;
+    font-size: 10;
+}
+.gmnoprint div[title^="Pan"]
+{
+    filter: alpha(opacity=0) !important;
+}
+gmnoprint img
+{
+    max-width: none;
+    width: 100% !important;
+}
+.titlename
+{
+    color: red;
+    font-size: 25px;
+    vertical-align: text-bottom;
+    top: 7px;
+    position: relative;
+}
+.subtitle
+{
+    font-size: 18px;
+    color: #a9a9a9;
+}
+.myCloseIcon
+{
+    right: -25px;
+    float: right;
+    font-size: 40px;
+    top: -15px;
+    position: relative;
+}
+.modalSpinner
+{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba( 0, 0, 0, .6 ) url('../img/spinner.gif') 50% 50% no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading
+{
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modalSpinner
+{
+    display: block;
+}
+.content
+{
+    overflow: auto;
+}
+.content img
+{
+    max-width: 97%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px;
+    border: solid 1px #666;
+}
+.content p:nth-child(even)
+{
+    color: #999;
+    font-family: Georgia,serif;
+    font-size: 17px;
+    font-style: italic;
+}
+.content p:nth-child(3n+0)
+{
+    color: #c96;
+}
+/*.content_1
+{
+    margin: 5px;
+    float: left;
+    margin-top: 140px;
+    padding: 0 5px;
+}*/
+
+.content form
+{
+    margin-bottom: 20px;
+}
+.content form input
+{
+    color: #eee;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    height: 25px;
+    -webkit-box-shadow: inset 2px 2px 10px rgba(0,0,0,0.4),1px 1px 0 rgba(255,255,255,0.4);
+    -moz-box-shadow: inset 2px 2px 10px rgba(0,0,0,0.4),1px 1px 0 rgba(255,255,255,0.4);
+    box-shadow: inset 2px 2px 10px rgba(0,0,0,0.4),1px 1px 0 rgba(255,255,255,0.4);
+}
+.content form input:focus
+{
+    background: rgba(0,0,0,0.3);
+}
+.accordiondiv 
+{
+    display:none;
+    /*border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;*/
+    width: 100%;
+    padding:10px 16px;
+    margin:10px auto;
+    /*border-top:0.1em dashed #adafb2;*/
+}
+
+.imgrotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
